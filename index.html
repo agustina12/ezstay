@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EzStay</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <script
+      src="https://kit.fontawesome.com/3226f204be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar -->
+      <nav class="navbar bg-body-tertiary mt-3">
+        <a class="navbar-brand custom-navbar">Navbar</a>
+        <form class="d-flex" role="search">
+          <button class="btn me-3 custom-btn-login" type="submit">
+            Log In
+          </button>
+          <button class="btn btn-primary custom-btn-singup" type="submit">
+            Sing Up
+          </button>
+        </form>
+      </nav>
+      <!-- end nav -->
+
+      <!-- hero-images -->
+      <div class="hero-image mt-3">
+        <div class="hero-text">
+          <h1>Travel With Us, Cheaply</h1>
+          <p>28°C Cloudy</p>
+          <div class="custom-icon-arrow">
+            <a href="#" style="text-decoration: none">
+              <span>
+                <i class="fas fa-regular fa-arrow-left custom-icons"></i>
+              </span>
+            </a>
+            <a href="#" style="text-decoration: none">
+              <span>
+                <i class="fas fa-regular fa-arrow-right custom-icons"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="row">
+          <div class="col-md-3 custom-col-content custom-line">
+            <h2>Location</h2>
+            <div class="input-group custom-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Destination"
+                aria-label="Your Destination"
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text" id="basic-addon2"
+                ><i class="fas fa-light fa-location-dot"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-md-3 custom-col-content custom-line">
+            <h2>Activity</h2>
+            <div class="input-group custom-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Activity"
+                aria-label="Your Activity"
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text" id="basic-addon2"
+                ><i class="fas fa-thin fa-circle-dot"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-md-3 custom-col-content">
+            <h2>Date</h2>
+            <div class="input-group custom-input">
+              <input
+                type="datetime"
+                class="form-control"
+                placeholder="Set Date"
+                aria-label="Set Date"
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text" id="basic-addon2"
+                ><i class="fas fa-light fa-calendar-days"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-md-3 custom-col-content">
+            <button class="custom-button">
+              <i class="fas fa-light fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end hero-images -->
+
+      <!-- content recomended -->
+      <div class="content-recomended">
+        <h1>Recomended Building</h1>
+        <p>
+          The most Brilliant reason NotCube has to be <br />
+          most Convenient and Cheap
+        </p>
+        <div class="row custom-row-card">
+          <div
+            class="card custom-card"
+            style="width: 22rem; height: fit-content"
+          >
+            <img
+              src="assets/img/recomended_picture_1.png"
+              class="card-img mt-3"
+              alt="images"
+            />
+            <span class="rating">4.6</span>
+            <div class="card-title">
+              <h5>High Fly</h5>
+              <p>$430</p>
+            </div>
+            <div class="card-body">
+              <span
+                ><i class="fas fa-light fa-location-dot"></i>Gambir
+                Jakarta</span
+              >
+              <p>Per hour</p>
+            </div>
+          </div>
+          <div
+            class="card custom-card"
+            style="width: 22rem; height: fit-content"
+          >
+            <img
+              src="assets/img/recomended_picture_2.png"
+              class="card-img mt-3"
+              alt="images"
+            />
+            <span class="rating">4.9</span>
+            <div class="card-title">
+              <h5>Stone Mountain</h5>
+              <p>$700</p>
+            </div>
+            <div class="card-body">
+              <span
+                ><i class="fas fa-light fa-location-dot"></i>Padalarang,
+                Bandung</span
+              >
+              <p>Per hour</p>
+            </div>
+          </div>
+          <div
+            class="card custom-card"
+            style="width: 22rem; height: fit-content"
+          >
+            <img
+              src="assets/img/recomended_picture_1.png"
+              class="card-img mt-3"
+              alt="images"
+            />
+            <span class="rating">4.8</span>
+            <div class="card-title">
+              <h5>White Building</h5>
+              <p>$380</p>
+            </div>
+            <div class="card-body">
+              <span
+                ><i class="fas fa-light fa-location-dot"></i>Kebun Raya,
+                Bogor</span
+              >
+              <p>Per hour</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end recomended -->
+
+      <!-- gallery -->
+
+      <div class="content-gallery">
+        <h1>Gallery</h1>
+        <p>This photo is from some of EzStay <br />Favorite buildings</p>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/img/gallery_picture_1.png" alt="images" />
+          </div>
+          <div class="col-md-4">
+            <img src="assets/img/gallery_picture_2.png" alt="images" />
+          </div>
+          <div class="col-md-4">
+            <div class="column">
+              <img src="assets/img/gallery_picture_3.png" alt="images" />
+            </div>
+            <div class="column">
+              <img src="assets/img/gallery_picture_4.png" alt="images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
